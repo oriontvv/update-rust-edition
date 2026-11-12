@@ -1,0 +1,7 @@
+[project]
+name = "update-rust-edition"
+version = "0.1.0"
+description = "a simple script to update all your rust project to specified edition"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
