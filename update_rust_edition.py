@@ -383,6 +383,10 @@ def migrate_single_project(
     set_state("cargo fmt...", "cyan")
     run_cmd(["cargo", "fmt"], proj.path)
 
+    # Step 6: cargo clippy --fix
+    set_state("cargo clippy --fix", "cyan")
+    run_cmd(["cargo", "clippy", "--fix"], proj.path)
+
     set_state("SUCCESS", "bold green")
 
 
