@@ -3,7 +3,7 @@
 An interactive TUI and parallel CLI tool for recursively updating the Rust `edition` across multiple projects within a directory.
 
 <p align="center">
-  <img src="https://github.com/oriontvv//blob/master/assets/img/tui.webp" alt="tui">
+  <img src="https://github.com/oriontvv/update-rust-edition/blob/master/assets/img/tui.webp" alt="tui">
 </p>
 
 
